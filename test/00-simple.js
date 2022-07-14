@@ -31,3 +31,5 @@ matter( fn, { delimiter: '---' } ).then( (object) => {
   tap.ok(Reflect.has( object, 'data'), "still worked with single delimiter specified");
   tap.ok(Reflect.has( object.data, 'layout' ), "key is properly specified");
 });
+
+
