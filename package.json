@@ -1,0 +1,23 @@
+{
+  "name": "fd-matter",
+  "version": "1.0.0",
+  "description": "Parse matter (a la gray-matter, only with filehandles instead)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap"
+  },
+  "keywords": [
+    "matter",
+    "front-matter",
+    "gray-matter"
+  ],
+  "author": "James A. Duncan <james@stance.team>",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^16.3.0"
+  },
+  "dependencies": {
+    "fs-ext": "^2.0.0",
+    "yaml": "^2.1.1"
+  }
+}

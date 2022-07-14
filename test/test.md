@@ -1,0 +1,4 @@
+---
+layout: simple
+---
+# Hello, world
