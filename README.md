@@ -6,7 +6,12 @@
 
 ```js
 const matter = require('fd-matter');
-const { filehandle, data } = await matter( 'file.html' );
+
+( async () => {
+	let { filehandle, data } = await matter( 'file.html' );
+	await filehandle.close();
+})();
+
 ```
 
 
